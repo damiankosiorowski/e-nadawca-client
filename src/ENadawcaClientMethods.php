@@ -11,7 +11,7 @@ trait ENadawcaClientMethods
         return $this->callMethod('addShipment', $request);
     }
 
-    public function sendEnvelope(Type\SendEnvelope $request): Type\SendEnvelopeResponse
+    public function sendEnvelope(Type\SendEnvelope $request): Type\SendEnvelopeResponseType
     {
         return $this->callMethod('sendEnvelope', $request);
     }
